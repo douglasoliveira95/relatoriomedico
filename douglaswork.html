@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/dougwork.css">
+        <title>Relatório Médico</title>
+    </head>
+
+    <body>
+        
+        <div id="edyform">
+        <h1><center><marquee>Relatório</marquee></center></h1>   
+        <form action="action_page.php">
+            <fieldset>
+                <legend><h3>Informações Pessoais</h3></legend>
+                
+                <label>Nome:</label> 
+                <input type="text" name="firstname"><br>
+                
+                <label>Endereço:</label> 
+                <input type="text" endereco="end"><br>
+                
+                <label>Cidade:</label> 
+                <input type="text" cidade="city"><br>
+                
+            </fieldset>
+        </form>
+        
+        <form action="action_page.php">
+            <fieldset>
+                <legend><h3>Histórico Médico</h3></legend>
+                    
+                    <input type="checkbox" name="gender" value="dengue"> <label>Dengue</label><br>
+                    <input type="checkbox" name="gender" value="zika"> <label>Zika</label><br>
+                    <input type="checkbox" name="gender" value="chikungunya"> <label>Chikungunya</label><br>
+                    <input type="checkbox" name="gender" value="gripe"><label>Gripe</label><br>
+                
+            </fieldset>
+        </form>
+        
+        <form>
+            <fieldset>
+                <legend><h3>Medicação Atual</h3></legend>
+                    <h4>Utiliza algum medicamento?</h4>
+                        <input type="radio" name="gender" value="sim"> <label>Sim</label><br>
+                        <input type="radio" name="gender" value="nao"> <label>Nao</label><br>
+                        
+                        <h4>Quais?</h4>
+                        <textarea rows="5" cols="75" name="obs"></textarea>
+                       
+            </fieldset>
+            <input type="submit" value="Enviar">
+            
+        </form>
+        </div>
+    
+      
+        
+    </body>
+</html>
+
+
+
+ 
